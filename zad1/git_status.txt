@@ -1,2 +1,2 @@
 git status - to polecenie, które wyświetla zmiany wykonane w repozytorium.
-Wyróznia pliki które zostały dodane do staging area i są gotowe do zcommitowania.
+Wyróznia pliki które zostały dodane do staging area i są gotowe do zcommitowania oraz te które nie zostały dodane i nie zostaną przesłane do repozytorium zdalnego.
