@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="submitForm(event)" novalidate>
+        <div>
+            <label> Login: </label>
+            <input type="text" placeholder="login..." id="login" name="login">
+            <span class="error"> </span>
+        </div>
+
+        <div>
+            <label> Email: </label>
+            <input type="email" placeholder="email..." id="email" name="email">
+            <span class="error"> </span>
+        </div>
+
+        <div>
+            <label> Password: </label>
+            <input type="password" placeholder="password..." id="password" name="password">
+            <span class="error"> </span>
+        </div>
+
+        <div>
+            <label> Retype password: </label>
+            <input type="password" placeholder="retyped password..." name="password2" id="password2">
+            <span class="error"> </span>
+        </div>
+
+        <div>
+            <label> Show phone number and birthdate</label>
+            <input type="checkbox" name="checkbox" id="checkbox"  >
+        </div>
+
+        <div id="element1">
+            <label> Select your birthday</label>
+            <input type="date" name="birthday">
+            <span class="error"> </span>
+        </div>
+
+        <div id="element2" hidden>
+            <label> Type your phone number</label>
+            <input type="number" placeholder="number..." name="number">
+            <span class="error"> </span>
+        </div>
+
+        <button type="submit"> Save data! </button>
+    </form>
+
+    <div class="table_container">
+        <table id="table" class="table">
+            <tr>
+                <th>Login</th>
+                <th>Email</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

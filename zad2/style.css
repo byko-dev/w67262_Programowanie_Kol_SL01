@@ -1,0 +1,22 @@
+.green{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.red{
+    color: red;
+}
+
+.signal_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signal{
+    border: 1px solid lightgray;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
