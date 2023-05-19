@@ -1,0 +1,3 @@
+git push - to polecenie służące do przepchnięcia zmian z repozytorium lokalnego do repozytorium zdalnego
+w tym przypadku github, wszystkie zmiany muszą być zcommitowane za pomoca git commit, a foldery i pliki
+dodane wcześniej do commita za pomocą polecenia git add
